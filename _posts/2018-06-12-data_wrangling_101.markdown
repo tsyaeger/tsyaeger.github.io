@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "data wrangling 101"
-date:       2018-06-13 03:42:45 +0000
+title:      "legislation wrangling 101"
+date:       2018-06-12 23:42:45 -0400
 permalink:  data_wrangling_101
 ---
 

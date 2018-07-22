@@ -1,18 +1,18 @@
 ---
 layout: post
 title:      "the followers and the followed: self-joins"
-date:       2018-07-22 02:37:09 +0000
+date:       2018-07-21 22:37:10 -0400
 permalink:  the_followers_and_the_followed_self-joins
 ---
 
 
-For the Sinatra project I chose to build an app that allows users to create and send messages to one another using gifs that they collect from keyword searches. By choosing this type of sender-recipient format, I stumbled upon a type of database relationship that I’d been unaware of-- a "self-join", or a "self-referential" relationship. 
+For my Sinatra project I chose to build an app that allows users to create and send messages to one another using gifs that they collect from keyword searches. By choosing this type of sender-recipient format, I stumbled upon a type of database relationship that I’d been unaware of-- a "self-join", or a "self-referential" relationship. 
 
 Initially I’d envisioned the app built with four models: User, Recipient, Message, and Gif, but as I mapped out the schema it occurred to me that the Recipient was actually just another User— albeit both a recipient and a User. Fortunately, I was lucky enough to have Dakota steer me in the right direction before things went haywire.
 
 It turns out that there are many scenarios that necessitate this type of arrangement. Any time you use an application like Twitter or Instagram where you can both follow and be followed by other users, the User table will need to look to itself for both ends of the relationship. This is also the case for parent-child relationships, i.e., when two things are of the same essential type and nested hierarchically. 
 
- I ended up with objects: User, Relationship, Message, and Gif. This is what the User/Relationship models look like right now:
+ I ended up with objects: User, Relationship, Message, and Gif. This is what the User and Relationship models look like right now:
 
 ```
 class User < ActiveRecord::Base

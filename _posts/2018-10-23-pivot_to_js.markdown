@@ -8,9 +8,10 @@ permalink:  pivot_to_js
 
 Being that the javascript/Rails project was my first attempt at building anything js top to bottom, there were plenty of lessons that I learned, big and small. 
 
-The project was slow-moving at first, as my grasp of js was tenuous, so I spent a significant amount of time on js/jquery/ajax tutorials. These were most helpful to me:
+The project was slow-moving at first and I quickly realized that I needed to supplement the coursework, so I spent a significant amount of time on js/jquery/ajax tutorials. These were most helpful to me:
 
 Js in the browser and asynchronous js sections:   https://www.udemy.com/modern-javascript/
+
 Rails/JS playlist:  https://www.youtube.com/playlist?list=PLm8ctt9NhMNV5X3s8n3x3uNyqh7bk9L8s
 
 Once I was up and running it became clear that I needed to focus on my coding process. I tended to work too much in my text editor, which I’m sure is not uncommon for people adding js to their repertoires. But once I started habituating myself to spending time in the browser and I added a few console tricks, my process became far more efficient.

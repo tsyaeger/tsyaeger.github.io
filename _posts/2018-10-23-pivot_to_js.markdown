@@ -23,24 +23,20 @@ Mistake:  I overused js because I was so excited to practice using it. I used it
 Lesson:  Don’t just dive in, unless you don’t mind spending a lot of time undoing things. Identify areas where your js is appropriate.
 
 
-Mistake:  At times I had difficulty understanding what was being returned by my code. I used debugger but wasn’t exactly sure what was going wrong.
-
-Lesson:  For on the fly testing use console.assert(test condition, ‘your msg’)  to specify the return values that you’re looking for.
-
-
-Mistake:  I didn’t have a handle on my JSON data.
-
-Lesson:  Use the JSON viewer extension and console.table(data, [‘col1’, ‘col2’]), which shows a sortable table of your data.
+* Mistake:  At times I had difficulty understanding what was being returned by my code. I used debugger but wasn’t exactly sure what was going wrong.
+* Lesson:  For on the fly testing use console.assert(test condition, ‘your msg’)  to specify the return values that you’re looking for.
 
 
-Mistake:  I used a few global variables.
+* Mistake:  I didn’t have a handle on my JSON data.
+* Lesson:  Use the JSON viewer extension and console.table(data, [‘col1’, ‘col2’]), which shows a sortable table of your data.
 
-Lesson: Don’t ever use global variables—just wrap them in anonymous functions. No big deal. (And make sure to declare variables so that they don’t become global.)
+
+* Mistake:  I used a few global variables.
+* Lesson: Don’t ever use global variables—just wrap them in anonymous functions. No big deal. (And make sure to declare variables so that they don’t become global.)
 
 
-Mistake:  Wasting my life searching line-by-line through html elements.
-
-Lesson:  To find an element use 'inspect' in the console:   inspect ($(‘#myId’))
+* Mistake:  Wasting my life searching line-by-line through html elements.
+* Lesson:  To find an element use 'inspect' in the console:   inspect ($(‘#myId’))
 
 
 Mistake:  I spent way too much time endlessly going back and forth from console/elements/page/text editor because I didn’t know…

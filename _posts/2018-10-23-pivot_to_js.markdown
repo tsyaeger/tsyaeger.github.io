@@ -54,5 +54,5 @@ Mistake:  I spent way too much time endlessly going back and forth from console/
 
 * You can see all listeners attached to an element with:  getEventListeners(‘#myId’)
 
-Oh, and if you haven't already, you should checkout Chrome’s devtools debugging tutorial: [https://developers.google.com/web/tools/chrome-devtools/javascript/](https://developers.google.com/web/tools/chrome-devtools/javascript/)
+Oh, and if you haven't already, you should checkout Chrome’s devtools debugging tutorial: [https://developers.google.com/web/tools/chrome-devtools/javascript/]
 

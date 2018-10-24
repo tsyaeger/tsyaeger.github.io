@@ -18,9 +18,8 @@ Once I was up and running it became clear that I needed to focus on my coding pr
 
 All in all, here are some of the most valuable lessons I learned:
 
-Mistake:  I overused js because I was so excited to practice using it. I used it to format and render basic elements of pages that I had no intention of making dynamic. I ended up having to revamp and it was a pain.
-
-Lesson:  Don’t just dive in, unless you don’t mind spending a lot of time undoing things. Identify areas where your js is appropriate.
+* Mistake:  I overused js because I was so excited to practice using it. I used it to format and render basic elements of pages that I had no intention of making dynamic. I ended up having to revamp and it was a pain.
+* Lesson:  Don’t just dive in, unless you don’t mind spending a lot of time undoing things. Identify areas where your js is appropriate.
 
 
 * Mistake:  At times I had difficulty understanding what was being returned by my code. I used debugger but wasn’t exactly sure what was going wrong.

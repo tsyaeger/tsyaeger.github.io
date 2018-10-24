@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Pivot to JS"
-date:       2018-10-24 02:07:33 +0000
+date:       2018-10-23 22:07:34 -0400
 permalink:  pivot_to_js
 ---
 
@@ -18,19 +18,29 @@ Once I was up and running it became clear that I needed to focus on my coding pr
 All in all, here are some of the most valuable lessons I learned:
 
 Mistake:  I overused js because I was so excited to practice using it. I used it to format and render basic elements of pages that I had no intention of making dynamic. I ended up having to revamp and it was a pain.
+
 Lesson:  Don’t just dive in, unless you don’t mind spending a lot of time undoing things. Identify areas where your js is appropriate.
 
+
 Mistake:  At times I had difficulty understanding what was being returned by my code. I used debugger but wasn’t exactly sure what was going wrong.
+
 Lesson:  For on the fly testing use console.assert(test condition, ‘your msg’)  to specify the return values that you’re looking for.
 
+
 Mistake:  I didn’t have a handle on my JSON data.
+
 Lesson:  Use the JSON viewer extension and console.table(data, [‘col1’, ‘col2’]), which shows a sortable table of your data.
 
+
 Mistake:  I used a few global variables.
+
 Lesson: Don’t ever use global variables—just wrap them in anonymous functions. No big deal. (And make sure to declare variables so that they don’t become global.)
 
+
 Mistake:  Wasting my life searching line-by-line through html elements.
-Solution:  To find an element use 'inspect' in the console:   inspect ($(‘#myId’))
+
+Lesson:  To find an element use 'inspect' in the console:   inspect ($(‘#myId’))
+
 
 Mistake:  I spent way too much time endlessly going back and forth from console/elements/page/text editor because I didn’t know…
 
@@ -44,5 +54,5 @@ Mistake:  I spent way too much time endlessly going back and forth from console/
 
 * You can see all listeners attached to an element with:  getEventListeners(‘#myId’)
 
-Oh, and if you haven't already, you should checkout Chrome’s devtools debugging tutorial: https://developers.google.com/web/tools/chrome-devtools/javascript/
+Oh, and if you haven't already, you should checkout Chrome’s devtools debugging tutorial: [https://developers.google.com/web/tools/chrome-devtools/javascript/](https://developers.google.com/web/tools/chrome-devtools/javascript/)
 

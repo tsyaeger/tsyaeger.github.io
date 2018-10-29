@@ -39,8 +39,6 @@ All in all, here are some of the most valuable lessons I learned:
 
 Also, I spent way too much time endlessly going back and forth from console/elements/page/text editor because I didn’t know…                                                                                                                                                                                                                         
 
-* You can edit js code in ‘sources’ by clicking the js file in the js folder and then you can save the edited code.
-
 * You can edit a document on the page by using:  ```document.body.contentEditable=true```  in the console and the code, itself, will change along with it.
 
 * You can select an element, return to console and write $0 to grab that element, or $1, $2 and so on, to get the element(s) selected previously.  E.g., ```var x = $0``` 

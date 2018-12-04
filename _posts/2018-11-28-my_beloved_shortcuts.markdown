@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My beloved shortcuts"
-date:       2018-11-29 00:56:21 +0000
+date:       2018-11-28 19:56:22 -0500
 permalink:  my_beloved_shortcuts
 ---
 
@@ -25,7 +25,8 @@ TERMINAL
 * open new window: CMD N                                                                                                                                                                           
 * close window: CMD W                                                                                                                                                                                    
 * move to tab 1/2/3/etc.: CMD 1/2/3... (in iTerm)
-
+* check PATH to see which directories are active fore executing commands: echo $PATH
+* add shortcut: echo "SHOTCUTNAME=/Users/your/path/to/shortcut_directory_name" >> ~/.bash_profile
 
 
 EDITOR

@@ -6,7 +6,7 @@ permalink:  my_beloved_shortcuts
 ---
 
 
-Since you are likely working on your computer for 8+ hours per day, any little shortcut helps. It took me a little while to train myself to use these, but they’ve significantly sped up my coding and reduced errors. Some of them have 
+Since you are likely working on your computer for 8+ hours per day, any little shortcut helps. It took me a little while to train myself to use these, but they’ve significantly sped up my coding and reduced errors.  
 
 Here are my favorites:
 

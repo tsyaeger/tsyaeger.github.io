@@ -34,7 +34,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
 
 In the origins line you can replace ```‘*’``` with the domain that the react app will run in.
 
-For routing I used namespaces api/v1, and nested the controllers as so: controllers/api/v1/some_thing_controller.rb
+For routing I used namespaces api/v1, and nested the controllers like so: controllers/api/v1/some_thing_controller.rb
 
 	```
 	namespace :api do

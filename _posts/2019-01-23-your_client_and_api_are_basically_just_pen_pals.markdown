@@ -45,7 +45,7 @@ For routing I used namespaces api/v1, and nested the controllers like so: contro
 	end
 	```
 
-To run the api you have to use a different port than what the react app will run on. The port can be specified with      ```-p``` like so:
+To run the api you have to use a different port than what the react app will run on. The port can be specified with      ```-p``` like this:
 ```rails s -p 3001```. This allows the api to run on the base url ```localhost:3001/api/v1```
 
 In the react app you can create a .env file that creates a variable ```BASE_URL=localhost:3001/api/v1```. This variable can be retrieved and used in the app, itself, and utilized in each api call.

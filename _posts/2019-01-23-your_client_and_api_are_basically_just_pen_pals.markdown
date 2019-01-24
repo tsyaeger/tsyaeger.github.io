@@ -8,7 +8,7 @@ permalink:  your_client_and_api_are_basically_just_pen_pals
 
 It’s one thing to have and understanding of react and rails, but it is another to understand how they work together. Maybe you can build a React/Redux frontend and a Rails app, you've used APIs and you understand RESTful principles. But do you know how to make your client and server communicate?
 
-First, your react app and your api are completely distinct entities and the only way that they communicate is by making api calls just like the ones you make to unrelated external apis. They just pass messages to one another using requests and responses. It seems so impersonal, no? However, your api and your client have a special relationship—one that you must configure.
+First, your react app and your api are completely distinct entities and the only way that they communicate is by making api calls just like the ones you make to unrelated external apis. They just pass messages to one another using requests and responses.  However, your api and your client have a special relationship—albeit one that you must configure.
 
 The Same-Origin Security Policy forbids access to the api whenever a request comes from an external domain. This is the default api state. By using Cross-Origin Resource Sharing (CORS) you can allow request from specific domains. With this method, when the request is sent, the header includes the Origin of the request. In the response the header includes Access-Control-Allow-Origin, which—if everything is working—will be the exact match of the Origin header in the request. The response may also include Access-Control-Allow-Methods in the header as well, which lists the names of methods that are allowed.
 

@@ -1,16 +1,16 @@
 ---
 layout: post
 title:      "Your client and API are basically just pen pals"
-date:       2019-01-24 02:37:35 +0000
+date:       2019-01-23 21:37:36 -0500
 permalink:  your_client_and_api_are_basically_just_pen_pals
 ---
 
 
-It’s one thing to have and understanding of react and rails, but it is another to understand how they all work together. You can build a React/Redux frontend and a Rails app. You understand the client-server relationship and RESTful principles. But do you know how to make them communicate?
+It’s one thing to have and understanding of react and rails, but it is another to understand how they work together. Maybe you can build a React/Redux frontend and a Rails app, you've used APIs and you understand RESTful principles. But do you know how to make your client and server communicate?
 
-First, your react app and your api are completely distinct entities and the only way that they communicate is by making api calls just like the ones you make to unrelated external apis. They just pass strings of information to one another using requests and responses. It seems so impersonal, no? However, your api and your client have a special relationship—one that you must configure.
+First, your react app and your api are completely distinct entities and the only way that they communicate is by making api calls just like the ones you make to unrelated external apis. They just pass messages to one another using requests and responses. It seems so impersonal, no? However, your api and your client have a special relationship—one that you must configure.
 
-The Same-Origin Security Policy forbids access to the api when the request comes from an external domain. This is the default api state. Using Cross-Origin Resource Sharing (CORS) you can allow request from specific domains. With this method, when the request is sent, the header includes the Origin of the request. In the response the header includes Access-Control-Allow-Origin, which—if everything is working—will be the exact match of the Origin header in the request. The response may also include Access-Control-Allow-Methods in the header, which lists the names of methods that are allowed.
+The Same-Origin Security Policy forbids access to the api whenever a request comes from an external domain. This is the default api state. By using Cross-Origin Resource Sharing (CORS) you can allow request from specific domains. With this method, when the request is sent, the header includes the Origin of the request. In the response the header includes Access-Control-Allow-Origin, which—if everything is working—will be the exact match of the Origin header in the request. The response may also include Access-Control-Allow-Methods in the header as well, which lists the names of methods that are allowed.
 
 Here are the steps I took to set up my api. (You’ll want to use psql if you plan on pushing it to heroku, otherwise you’re in a world of hurt):                                                                                                                                                                                 
 1. Use ```rails new rails5_<app_name_api> —api --database=postgresql```, and cd into the new directory

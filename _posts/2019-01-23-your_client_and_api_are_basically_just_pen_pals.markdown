@@ -6,7 +6,7 @@ permalink:  your_client_and_api_are_basically_just_pen_pals
 ---
 
 
-It’s one thing to have and understanding of react and rails, but it is another to understand how they work together. Maybe you can build a React/Redux frontend and a Rails app, you've used APIs and you understand RESTful principles. But do you know how to make your client and server communicate?
+It’s one thing to have an understanding of react and rails, but it is another to understand how they work together. Maybe you can build a React/Redux frontend and a Rails app, you've used APIs and you understand RESTful principles. But do you know how to make your client and server communicate?
 
 First, your react app and your api are completely distinct entities and the only way that they communicate is by making api calls just like the ones you make to unrelated external apis. They just pass messages to one another using requests and responses.  However, your api and your client have a special relationship—albeit one that you must configure.
 

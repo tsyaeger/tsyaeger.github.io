@@ -1,15 +1,14 @@
 # Site settings
+author: taryn yaeger
 title: Problem/Solution
 header-img: img/home-bg.png
 email: tsyaeger@gmail.com
-copyright_name: tsyaeger
+copyright_name: taryn yaeger
 description: > # this means to ignore newlines until "baseurl:"
   "Architecture begins when you place two bricks carefully together."
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  tsyaeger
-learn_profile: tsyaeger
-email_username: tsyaeger@gmail.com
 
 # Build settings
 markdown: kramdown

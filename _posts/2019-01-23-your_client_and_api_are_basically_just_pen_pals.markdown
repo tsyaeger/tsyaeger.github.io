@@ -50,7 +50,7 @@ To run the api you have to use a different port than what the react app will run
 
 In the react app you can create a .env file that creates a variable ```BASE_URL=localhost:3001/api/v1```. This variable can be retrieved and used in the app, itself, and utilized in each api call.
 
-Finally, the controllers need to respond appropriately to the request. There are many ways to do this, but I prefer this mode:
+Finally, the controllers need to respond appropriately to the request. There are many ways to do this, but here is one common option:
 
 ```
 def update

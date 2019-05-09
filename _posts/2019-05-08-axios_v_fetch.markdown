@@ -28,7 +28,8 @@ Axios automatically serializes JavaScript objects to JSON and returns responses 
 
 Error handling is tricky with Fetch, as the catch block will only return an error when a network error occurs.  So for instance, if your backend returns the status code 500, fetch will treat it as the same as status code as a 200 --  indicating that the request was successful. Fortunately, you can check that the response was error-free by using response.ok, like so:
 
-```fetch(url)
+```
+fetch(url)
   .then(response => {
     if (response.ok) {
       return response.json()
@@ -47,7 +48,8 @@ Error handling is tricky with Fetch, as the catch block will only return an erro
 
 As for axios, once you use 'npm install axios' you can create an instance with a custom configuration like so:
 
-```// httpClient.js
+```
+// httpClient.js
 import axios from ‘axios’;
 
 const params = {
@@ -55,11 +57,13 @@ const params = {
 };
 
 const httpClient = axios.create(params);
-export default httpClient;```
+export default httpClient;
+```
 
-And axios handles the rest the particulars:
+And axios handles the particulars:
 
-```// services.js
+```
+// services.js
 import httpClient from './httpClient';
 
 export const getThings = () => {
@@ -70,7 +74,8 @@ export const saveThings = (things) => {
   	return httpClient.post('/things', 
 		{ things }
 	)
-}```
+}
+```
 
 Learn more about axios here:
 https://www.npmjs.com/package/axios

@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Axios v Fetch"
-date:       2019-05-09 02:18:29 +0000
+date:       2019-05-08 22:18:30 -0400
 permalink:  axios_v_fetch
 ---
 
 
-No disrespect to Fetch, but axios is awesome. Axios and Fetch are both promise-based and allow you to make http network requests. They both do the job, but there are significant differences that can inform your decision to use one over the other.
+No disrespect to Fetch, but axios is awesome. Axios and Fetch are both promise-based methods of making http network requests. They both do the job, but there are significant differences that can inform your decision to use one over the other.
 
 Fetch is a medium-level native API created as an alternative to XMLHttpRequest, while axios is a 3rd party package built upon XMLHttpRequest. By using XMLHttpRequest, axios provides some functionality that Fetch lacks, for example upload progress monitoring. Both options support modern browsers, though Fetch does not support older IE, while axios supports IE8+ (although the rest of your app may not).
 

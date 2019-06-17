@@ -73,7 +73,7 @@ function whereAmI () {
 }
 ```
 
-But here we see something different—the first console log is undefined. This is because within a function the program hoists the internal variable, which is set to undefined, and the program proceeds to read the rest of the block.
+But here we see something different — the first console log is undefined. This is because within a function the program hoists the internal variable, which is set to undefined, and the program proceeds to read the rest of the block.
 ```
 var location = "outside"
 function whereAmI () {
@@ -92,8 +92,7 @@ function whatToEatForLunch(){
 		var dinner = 'tacos'
 		console.log("I'm hungry, so: ", dinner) //tacos
 	} else {
-	  var dinner = 'salad'
-		console.log("I'm not very hungry, so: ", dinner)
+		console.log("I'm not very hungry")
 	}
 }
 ```
